@@ -17,18 +17,6 @@
         "slider_img": ""
       },
       {
-        "url": "",
-        "desc": [
-          "100 FREE SPIN"
-        ],
-        "site": "galabet",
-        "sort": null,
-        "color": "#58a400",
-        "miktar": "₺100",
-        "promo_code": "ercu100",
-        "slider_img": ""
-      },
-      {
         "url": "https://bit.ly/ercuxbanko",
         "desc": [
           "777TL Nakit - 500TL Freespin"
@@ -89,7 +77,7 @@
         "slider_img": ""
       },
       {
-        "url": "",
+        "url": "https://bit.ly/3B5sQdK",
         "desc": [
           "KAYIT OL DENEME BONUSUNU AL!"
         ],
@@ -193,32 +181,28 @@
             "sort": "1"
           },
           {
-            "site": "galabet",
+            "site": "bankobet",
             "sort": "2"
           },
           {
-            "site": "bankobet",
+            "site": "betkom",
             "sort": "3"
           },
           {
-            "site": "betkom",
+            "site": "tarafbet",
             "sort": "4"
           },
           {
-            "site": "tarafbet",
+            "site": "mariobet",
             "sort": "5"
           },
           {
-            "site": "mariobet",
+            "site": "bahiscom",
             "sort": "6"
           },
           {
-            "site": "bahiscom",
-            "sort": "7"
-          },
-          {
             "site": "marsbahis",
-            "sort": "8"
+            "sort": "7"
           }
         ]
       },
