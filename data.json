@@ -4,6 +4,18 @@
     "logo": "",
     "sites": [
       {
+        "url": "https://bit.ly/ercuxbetewin",
+        "desc": [
+          "999TL KAYIT BONUSU"
+        ],
+        "site": "betewin",
+        "sort": null,
+        "color": "#ff8d14",
+        "miktar": "₺999",
+        "promo_code_yok": "KAYIT OL 999TL BONUS AL",
+        "slider_img": ""
+      },
+      {
         "url": "https://bit.ly/ercuxzbahiss",
         "desc": [
           "ÜYE OL DENEME BONUSUNU AL!"
@@ -176,6 +188,10 @@
         "name": "Elmas Site",
         "sort": "3",
         "sites": [
+          {
+            "site": "betewin",
+            "sort": "0"
+          },
           {
             "site": "zbahis",
             "sort": "1"
