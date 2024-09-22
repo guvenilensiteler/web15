@@ -4,18 +4,6 @@
     "logo": "",
     "sites": [
       {
-        "url": "https://bit.ly/ercuxbetewin",
-        "desc": [
-          "999TL KAYIT BONUSU"
-        ],
-        "site": "betewin",
-        "sort": null,
-        "color": "#ff8d14",
-        "miktar": "₺999",
-        "promo_code_yok": "KAYIT OL 999TL BONUS AL",
-        "slider_img": ""
-      },
-      {
         "url": "https://bit.ly/ercuxzbahiss",
         "desc": [
           "ÜYE OL DENEME BONUSUNU AL!"
@@ -26,6 +14,18 @@
         "miktar": "₺777",
         "promo_code": "ercu777",
         "elmas": "ana-sponsor.webp",
+        "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/ercuxbetewin",
+        "desc": [
+          "999TL KAYIT BONUSU"
+        ],
+        "site": "betewin",
+        "sort": null,
+        "color": "#ff8d14",
+        "miktar": "₺999",
+        "promo_code_yok": "KAYIT OL 999TL BONUS AL",
         "slider_img": ""
       },
       {
@@ -189,11 +189,11 @@
         "sort": "3",
         "sites": [
           {
-            "site": "betewin",
+            "site": "zbahis",
             "sort": "0"
           },
           {
-            "site": "zbahis",
+            "site": "betewin",
             "sort": "1"
           },
           {
