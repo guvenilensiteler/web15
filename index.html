@@ -30,6 +30,18 @@
         }
     </script>
 
+    <script>
+        // Diğer mevzu için geçici
+        document.addEventListener('DOMContentLoaded', function (){
+            setTimeout(function (){
+                urlParams = new URLSearchParams(window.location.search)
+                if (urlParams.has('rulet') && !urlParams.has('x')) {
+                    window.location.href = window.location.href+'&x';
+                }
+            },1000);
+        });
+    </script>
+
 </head>
 <style>
     .row.strip h1 {
