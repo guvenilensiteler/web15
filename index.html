@@ -844,8 +844,6 @@
 
         urlParams = new URLSearchParams(window.location.search)
         if (urlParams.has('rulet')) {
-            document.querySelector('.social').style.display = 'block';
-
             // genel load olunca rulet masasını şey et
             is_element_load4 = setInterval(function(){
                 let e = document.querySelector('#yuklendikten-sonra');
@@ -1045,6 +1043,15 @@ margin: 20px -5px 5px;
                         e.outerHTML = response;
                         document.querySelector('#app2').style.height = document.querySelector('.racetrack-sector-in').getBoundingClientRect().height+'px'; // tarayıcı yüksekliği ayarı (mobil uyumluluk için)
                     });
+                }
+            },50);
+
+            // yukarıdaki aşağı kaydır button
+            is_element_load6 = setInterval(function(){
+                let e = document.querySelector('.social');
+                if (e) {
+                    e.style.display = 'block';
+                    clearInterval(is_element_load6);
                 }
             },50);
 
