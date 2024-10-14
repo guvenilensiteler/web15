@@ -17,6 +17,18 @@
         "slider_img": ""
       },
       {
+        "url": "https://bit.ly/3B5sQdK",
+        "desc": [
+          "HOŞ GELDİN BONUSUNU AL!"
+        ],
+        "site": "marsbahis",
+        "sort": null,
+        "color": "#e12629",
+        "miktar": "KAYIT OL",
+        "promo_code_yok": "",
+        "slider_img": ""
+      },
+      {
         "url": "https://bit.ly/ercuxbanko",
         "desc": [
           "1.111 TL NAKİT - 111 FREE SPIN"
@@ -74,18 +86,6 @@
         "color": "#00c683",
         "miktar": "₺888",
         "promo_code": "ercu888",
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/3B5sQdK",
-        "desc": [
-          "HOŞ GELDİN BONUSUNU AL!"
-        ],
-        "site": "marsbahis",
-        "sort": null,
-        "color": "#e12629",
-        "miktar": "KAYIT OL",
-        "promo_code_yok": "",
         "slider_img": ""
       },
       {
@@ -193,27 +193,27 @@
             "sort": "1"
           },
           {
-            "site": "bankobet",
+            "site": "marsbahis",
             "sort": "2"
           },
           {
-            "site": "betkom",
+            "site": "bankobet",
             "sort": "3"
           },
           {
-            "site": "tarafbet",
+            "site": "betkom",
             "sort": "4"
           },
           {
-            "site": "mariobet",
+            "site": "tarafbet",
             "sort": "5"
           },
           {
-            "site": "bahiscom",
+            "site": "mariobet",
             "sort": "6"
           },
           {
-            "site": "marsbahis",
+            "site": "bahiscom",
             "sort": "7"
           },
           {
