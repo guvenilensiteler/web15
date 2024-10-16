@@ -4,19 +4,6 @@
     "logo": "",
     "sites": [
       {
-        "url": "https://bit.ly/ercuxzbahiss",
-        "desc": [
-          "ÜYE OL DENEME BONUSUNU AL!"
-        ],
-        "site": "zbahis",
-        "sort": null,
-        "color": "#48effa",
-        "miktar": "₺777",
-        "promo_code": "ercu777",
-        "elmas": "ana-sponsor.webp",
-        "slider_img": ""
-      },
-      {
         "url": "https://bit.ly/3B5sQdK",
         "desc": [
           "HOŞ GELDİN BONUSUNU AL!"
@@ -38,6 +25,19 @@
         "color": "#ff1376",
         "miktar": "₺1.111",
         "promo_code_yok": "KAYIT OL DENEME BONUSUNU AL!",
+        "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/ercuxzbahiss",
+        "desc": [
+          "ÜYE OL DENEME BONUSUNU AL!"
+        ],
+        "site": "zbahis",
+        "sort": null,
+        "color": "#48effa",
+        "miktar": "₺777",
+        "promo_code": "ercu777",
+        "elmas": "ana-sponsor.webp",
         "slider_img": ""
       },
       {
@@ -189,15 +189,15 @@
         "sort": "3",
         "sites": [
           {
-            "site": "zbahis",
+            "site": "marsbahis",
             "sort": "1"
           },
           {
-            "site": "marsbahis",
+            "site": "bankobet",
             "sort": "2"
           },
           {
-            "site": "bankobet",
+            "site": "zbahis",
             "sort": "3"
           },
           {
