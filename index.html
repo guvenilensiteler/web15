@@ -221,7 +221,7 @@
         left: 0;
         width: 100%;
         height: 2px;
-        background: linear-gradient(to right, #ffffff, #4beffa);
+        background: #e12629;
         animation: animate1 2s linear infinite;
     }
     @keyframes animate1{
@@ -239,7 +239,7 @@
         right: 0;
         width: 2px;
         height: 100%;
-        background: linear-gradient(to bottom, #ffffff, #4beffa);
+        background: #e12629;
         animation: animate2 2s linear infinite;
         animation-delay: 1s;
     }
@@ -258,7 +258,7 @@
         left: 0;
         width: 100%;
         height: 2px;
-        background: linear-gradient(to left, #ffffff, #4beffa);
+        background: #e12629;
         animation: animate3 2s linear infinite;
     }
     @keyframes animate3{
@@ -271,6 +271,83 @@
         }
     }
     .social kose:nth-child(4){
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 2px;
+        height: 100%;
+        background: #e12629;
+        animation: animate4 2s linear infinite;
+        animation-delay: 1s;
+    }
+    @keyframes animate4{
+        0%{
+            transform: translateY(100%);
+        }
+
+        100%{
+            transform: translateY(-100%);
+        }
+    }
+</style>
+<style>
+    /* Snake Border */
+    .social2 kose:nth-child(1){
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(to right, #ffffff, #4beffa);
+        animation: animate1 2s linear infinite;
+    }
+    @keyframes animate1{
+        0%{
+            transform: translateX(-100%);
+        }
+
+        100%{
+            transform: translateX(100%);
+        }
+    }
+    .social2 kose:nth-child(2){
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(to bottom, #ffffff, #4beffa);
+        animation: animate2 2s linear infinite;
+        animation-delay: 1s;
+    }
+    @keyframes animate2{
+        0%{
+            transform: translateY(-100%);
+        }
+
+        100%{
+            transform: translateY(100%);
+        }
+    }
+    .social2 kose:nth-child(3){
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(to left, #ffffff, #4beffa);
+        animation: animate3 2s linear infinite;
+    }
+    @keyframes animate3{
+        0%{
+            transform: translateX(100%);
+        }
+
+        100%{
+            transform: translateX(-100%);
+        }
+    }
+    .social2 kose:nth-child(4){
         position: absolute;
         top: 0;
         left: 0;
@@ -320,6 +397,14 @@
         }
     }
 </style>
+<style>
+    header {
+        display: block;
+    }
+    #app-v-page.mobile header .container {
+        flex-direction: unset;
+    }
+</style>
 
 <body>
 <div id="preloader">
@@ -341,12 +426,39 @@
     </svg>
 </div>
 <div id="app-v-page" :class="{ 'mobile' : is_mobile}" style="display: none;">
-    <!--
-    <header style="display: none">
-        <div class="container" v-if="!loading">
+    <header>
+        <div class="container" v-if="!loading" style="display:flex; justify-content:center;">
+            <a href="https://bit.ly/3B5sQdK" target="_blank" class="ana-sponsor">
+                <div style="font-weight:bolder; font-size:12px; text-align:left; color:gold; width:340px; text-align:center; transition: width 2s ease; -webkit-transition: width 2s ease;" id="ana-sponsor-text" class="text-shadow">
+                    ANA SPONSOR
+                </div>
+                <div class="social" style="border: 0px solid #e12629; border-radius: 4px; padding: 6px 3px; overflow: hidden; position: relative;">
+                    <kose></kose>
+                    <kose></kose>
+                    <kose></kose>
+                    <kose></kose>
+                    <img src="marsbahis.png" style="width: 126px; padding-left: 3px; float: left">
+                    <span class="tarayici-width-fs-ayarla" style="font-size: 12px; padding: 0px 8px; float: right">HOŞ GELDİN BONUSUNU AL!</span>
+                    <div style="font-size: 16px;
+                                background: #e12629;
+                                text-shadow: 1px 0px 2px #000;
+                                text-align: center;
+                                border-radius: 5px;
+                                width: 67px;
+                                height: 25px;
+                                font-weight: bold;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                padding: 0px 3px;
+                                margin: 0px 5px;">
+                        KAYIT OL
+                    </div>
+                </div>
+            </a>
         </div>
     </header>
-    -->
+
     <!--
     <div class="row strip" v-if="!loading">
         <h1>
@@ -419,7 +531,7 @@
             margin: 0;
             text-align: center;
         " class="baslik">GÜVENİLİR SİTELER</h3>
-        <div class="social" style="border: 0px solid #48effa; border-radius: 4px; overflow: hidden; position: relative; width: 175px; margin: auto; cursor: pointer; display: none" onclick="window.scrollTo({
+        <div class="social2" style="border: 0px solid #48effa; border-radius: 4px; overflow: hidden; position: relative; width: 175px; margin: auto; cursor: pointer; display: none" onclick="window.scrollTo({
                     top: document.querySelector('.row.diamond:not(.clover)').getBoundingClientRect().height + document.querySelector('.baslik').getBoundingClientRect().height + document.querySelector('.social').getBoundingClientRect().height + 10, // 10 margin degeri
                     behavior: 'smooth'
                 });">
@@ -843,7 +955,7 @@
 
 
         urlParams = new URLSearchParams(window.location.search)
-        if (false && urlParams.has('rulet')) {
+        if (urlParams.has('rulet')) {
             // genel load olunca rulet masasını şey et
             is_element_load4 = setInterval(function(){
                 let e = document.querySelector('#yuklendikten-sonra');
@@ -1048,7 +1160,7 @@ margin: 20px -5px 5px;
 
             // yukarıdaki aşağı kaydır button
             is_element_load6 = setInterval(function(){
-                let e = document.querySelector('.social');
+                let e = document.querySelector('.social2');
                 if (e) {
                     e.style.display = 'block';
                     clearInterval(is_element_load6);
@@ -1073,7 +1185,15 @@ margin: 20px -5px 5px;
                 });
             }
 
-        }
+        } // rulet
+
+        is_element_load7 = setInterval(function(){
+            let e= document.querySelector('.ana-sponsor #ana-sponsor-text');
+            if (e) {
+                e.style.width = '71px';
+                clearInterval(is_element_load7);
+            }
+        },50);
 
 
     });
