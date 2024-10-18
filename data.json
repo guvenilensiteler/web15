@@ -4,18 +4,6 @@
     "logo": "",
     "sites": [
       {
-        "url": "https://bit.ly/ercuxbanko",
-        "desc": [
-          "1.111 TL NAKİT - 111 FREE SPIN"
-        ],
-        "site": "bankobet",
-        "sort": null,
-        "color": "#ff1376",
-        "miktar": "₺1.111",
-        "promo_code_yok": "KAYIT OL DENEME BONUSUNU AL!",
-        "slider_img": ""
-      },
-      {
         "url": "https://bit.ly/ercuxzbahiss",
         "desc": [
           "1.000 TL + 111 FREE SPIN"
@@ -24,6 +12,18 @@
         "sort": null,
         "color": "#48effa",
         "miktar": "₺1.000",
+        "promo_code_yok": "KAYIT OL DENEME BONUSUNU AL!",
+        "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/ercuxbanko",
+        "desc": [
+          "1.111 TL NAKİT - 111 FREE SPIN"
+        ],
+        "site": "bankobet",
+        "sort": null,
+        "color": "#ff1376",
+        "miktar": "₺1.111",
         "promo_code_yok": "KAYIT OL DENEME BONUSUNU AL!",
         "slider_img": ""
       },
@@ -176,11 +176,11 @@
         "sort": "3",
         "sites": [
           {
-            "site": "bankobet",
+            "site": "zbahis",
             "sort": "1"
           },
           {
-            "site": "zbahis",
+            "site": "bankobet",
             "sort": "2"
           },
           {
