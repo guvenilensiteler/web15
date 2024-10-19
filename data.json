@@ -4,6 +4,19 @@
     "logo": "",
     "sites": [
       {
+        "url": "https://bit.ly/ercuxzbahiss",
+        "desc": [
+          "1.000 TL + 111 FREE SPIN"
+        ],
+        "site": "zbahis",
+        "sort": null,
+        "color": "#48effa",
+        "miktar": "₺1.000",
+        "elmas": "ana-sponsor.webp",
+        "promo_code_yok": "KAYIT OL DENEME BONUSUNU AL!",
+        "slider_img": ""
+      },
+      {
         "url": "https://bit.ly/3B5sQdK",
         "desc": [
           "HOŞ GELDİN BONUSUNU AL!"
@@ -14,18 +27,6 @@
         "miktar": "KAYIT OL",
         "elmas": "ana-sponsor.webp",
         "promo_code_yok": "",
-        "slider_img": ""
-      },
-      {
-        "url": "https://bit.ly/ercuxzbahiss",
-        "desc": [
-          "1.000 TL + 111 FREE SPIN"
-        ],
-        "site": "zbahis",
-        "sort": null,
-        "color": "#48effa",
-        "miktar": "₺1.000",
-        "promo_code_yok": "KAYIT OL DENEME BONUSUNU AL!",
         "slider_img": ""
       },
       {
@@ -189,11 +190,11 @@
         "sort": "3",
         "sites": [
           {
-            "site": "marsbahis",
+            "site": "zbahis",
             "sort": "1"
           },
           {
-            "site": "zbahis",
+            "site": "marsbahis",
             "sort": "2"
           },
           {
