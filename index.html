@@ -426,7 +426,7 @@
     </svg>
 </div>
 <div id="app-v-page" :class="{ 'mobile' : is_mobile}" style="display: none;">
-    <header>
+    <header style="display: none">
         <div class="container" v-if="!loading" style="display:flex; justify-content:center;">
             <a href="https://bit.ly/3B5sQdK" target="_blank" class="ana-sponsor">
                 <div style="font-weight:bolder; font-size:12px; text-align:left; color:gold; width:340px; text-align:center; transition: width 2s ease; -webkit-transition: width 2s ease;" id="ana-sponsor-text" class="text-shadow">
@@ -1179,14 +1179,19 @@ margin: 20px -5px 5px;
                     }
                 });
                 elements.forEach((y) => {y.classList.remove('active'); y.style.filter = 'brightness(0.2)';});
+                //tek_seferde_ekrana_yaz = [];
                 rangeArray.forEach(function(x) {
+                    //tek_seferde_ekrana_yaz.push(elements[x].querySelector('.racetrack-number-label').getAttribute('href').replace(/\D/g,'')*1);
+
                     elements[x].classList.add('active');
                     elements[x].style.filter = 'none';
                 });
+                //console.log([...new Set(tek_seferde_ekrana_yaz)]);
             }
 
         } // rulet
 
+        /*
         is_element_load7 = setInterval(function(){
             let e= document.querySelector('.ana-sponsor #ana-sponsor-text');
             if (e) {
@@ -1194,7 +1199,7 @@ margin: 20px -5px 5px;
                 clearInterval(is_element_load7);
             }
         },50);
-
+        */
 
     });
 
