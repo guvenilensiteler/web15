@@ -884,13 +884,7 @@
             return false;
         }
         if (isMobile()) {
-            is_element_load = setInterval(function(){
-                let e = document.querySelector('header');
-                if (e) {
-                    e.setAttribute('style','');
-                    clearInterval(is_element_load);
-                }
-            },50)
+            
         } else {
             is_element_load = setInterval(function(){
                 let e = document.querySelector('.rulet-programi');
