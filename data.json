@@ -17,19 +17,6 @@
         "slider_img": ""
       },
       {
-        "url": "https://bit.ly/3B5sQdK",
-        "desc": [
-          "HOŞ GELDİN BONUSUNU AL!"
-        ],
-        "site": "marsbahis",
-        "sort": null,
-        "color": "#e12629",
-        "miktar": "KAYIT OL",
-        "elmas": "ana-sponsor.webp",
-        "promo_code_yok": "",
-        "slider_img": ""
-      },
-      {
         "url": "https://cutt.ly/jeSBf1q1",
         "desc": [
           "750TL VEYA 750 FREE SPIN"
@@ -51,6 +38,19 @@
         "color": "#49b176",
         "miktar": "₺750",
         "promo_code_yok": "KAYIT OL 750TL BONUSU AL",
+        "slider_img": ""
+      },
+      {
+        "url": "https://bit.ly/3B5sQdK",
+        "desc": [
+          "HOŞ GELDİN BONUSUNU AL!"
+        ],
+        "site": "marsbahis",
+        "sort": null,
+        "color": "#e12629",
+        "miktar": "KAYIT OL",
+        "elmas": "ana-sponsor.webp",
+        "promo_code_yok": "",
         "slider_img": ""
       },
       {
@@ -218,15 +218,15 @@
             "sort": "1"
           },
           {
-            "site": "marsbahis",
+            "site": "tipobet",
             "sort": "2"
           },
           {
-            "site": "tipobet",
+            "site": "sahabet",
             "sort": "3"
           },
           {
-            "site": "sahabet",
+            "site": "marsbahis",
             "sort": "4"
           },
           {
