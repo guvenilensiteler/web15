@@ -54,6 +54,18 @@
         "slider_img": ""
       },
       {
+        "url": "https://cutt.ly/TeFC7Fqe",
+        "desc": [
+          "250₺ NAKİT - 250₺ FREE SPIN"
+        ],
+        "site": "betist",
+        "sort": null,
+        "color": "#41b16f",
+        "miktar": "",
+        "promo_code_yok": "KAYIT OL DENEME BONUSUNU AL!",
+        "slider_img": ""
+      },
+      {
         "url": "https://bit.ly/ercuxbanko",
         "desc": [
           "1.111 TL NAKİT - 111 FREE SPIN"
@@ -230,28 +242,32 @@
             "sort": "4"
           },
           {
-            "site": "bankobet",
+            "site": "betist",
             "sort": "5"
           },
           {
-            "site": "tarafbet",
+            "site": "bankobet",
             "sort": "6"
           },
           {
-            "site": "betkom",
+            "site": "tarafbet",
             "sort": "7"
           },
           {
-            "site": "mariobet",
+            "site": "betkom",
             "sort": "8"
           },
           {
-            "site": "bahiscom",
+            "site": "mariobet",
             "sort": "9"
           },
           {
-            "site": "betewin",
+            "site": "bahiscom",
             "sort": "10"
+          },
+          {
+            "site": "betewin",
+            "sort": "11"
           }
         ]
       },
