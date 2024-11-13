@@ -398,6 +398,76 @@
     }
 </style>
 <style>
+    #countdown-header {
+        position: sticky;
+        top: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        padding: 4px 0;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        z-index: 1000;
+        display: none;
+    }
+    #countdown-timer {
+        animation: glow 10s linear infinite;
+    }
+    @keyframes glow {
+        0% {
+            text-shadow: 0 0 5px #6666ff, 0 0 10px #6666ff, 0 0 15px #6666ff;
+        }
+        10% {
+            text-shadow:0 0 8px  #0099ff;
+        }
+        50% {
+            text-shadow:0 0 5px  #00ff00, 0 0 10px #00ff00, 0 0 15px  #00ff00;
+        }
+        75% {
+            text-shadow:0 0 10px  #ff3399;
+        }
+        100% {
+            text-shadow: 0 0 5px #6666ff, 0 0 10px #6666ff, 0 0 15px #6666ff;
+        }
+    }
+    .countdown-item {
+        display: inline-block;
+        margin: 0 5px;
+    }
+    .countdown-number {
+        font-size: 28px;
+        font-weight: bold;
+    }
+    .countdown-label {
+        font-size: 12px;
+        text-transform: lowercase;
+        margin-left: -4px;
+    }
+
+    .marquee-container {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    .marquee-content {
+        display: inline-block;
+        padding-left: 100%;
+        animation: slide-left 15s linear infinite;
+        white-space: nowrap;
+        letter-spacing: 1px;
+        font-weight: bold;
+        color: chartreuse;
+    }
+    @keyframes slide-left {
+        0% {
+            transform: translateX(0%);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+</style>
+<style>
     header {
         display: block;
     }
@@ -458,6 +528,31 @@
             </a>
         </div>
     </header>
+    <div id="countdown-header">
+        <div class="marquee-container">
+            <div class="marquee-content">
+                GÜNCEL RULET ALGORİTMASI'NIN YAYINLANMASINA KALAN SÜRE
+            </div>
+        </div>
+        <div id="countdown-timer">
+        <span class="countdown-item">
+            <span id="days" class="countdown-number">0</span>
+            <span class="countdown-label">gün</span>
+        </span>
+            <span class="countdown-item">
+            <span id="hours" class="countdown-number">0</span>
+            <span class="countdown-label">saat</span>
+        </span>
+            <span class="countdown-item">
+            <span id="minutes" class="countdown-number">0</span>
+            <span class="countdown-label">dakika</span>
+        </span>
+            <span class="countdown-item">
+            <span id="seconds" class="countdown-number">0</span>
+            <span class="countdown-label">saniye</span>
+        </span>
+        </div>
+    </div>
 
     <!--
     <div class="row strip" v-if="!loading">
@@ -1173,14 +1268,14 @@ margin: 20px -5px 5px;
                     }
                 });
                 elements.forEach((y) => {y.classList.remove('active'); y.style.filter = 'brightness(0.2)';});
-                //tek_seferde_ekrana_yaz = [];
+                tek_seferde_ekrana_yaz = [];
                 rangeArray.forEach(function(x) {
-                    //tek_seferde_ekrana_yaz.push(elements[x].querySelector('.racetrack-number-label').getAttribute('href').replace(/\D/g,'')*1);
+                    tek_seferde_ekrana_yaz.push(elements[x].querySelector('.racetrack-number-label').getAttribute('href').replace(/\D/g,'')*1);
 
                     elements[x].classList.add('active');
                     elements[x].style.filter = 'none';
                 });
-                //console.log([...new Set(tek_seferde_ekrana_yaz)]);
+                console.log([...new Set(tek_seferde_ekrana_yaz)]);
             }
 
         } // rulet
@@ -1194,6 +1289,29 @@ margin: 20px -5px 5px;
             }
         },50);
         */
+
+        countdownDate = new Date("November 16, 2024 21:00:00").getTime();
+        function updateCountdown() {
+            distance = countdownDate - (new Date().getTime());
+
+            // Gün, saat, dakika ve saniye hesaplama
+            days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("days").textContent = days;
+            document.getElementById("hours").textContent = hours;
+            document.getElementById("minutes").textContent = minutes;
+            document.getElementById("seconds").textContent = seconds;
+
+            if (distance >= 0) {
+                document.querySelector('#countdown-header').style.display = 'block';
+            } else {
+                clearInterval(geri_sayim);
+            }
+        }
+        geri_sayim = setInterval(updateCountdown, 1000);
 
     });
 
