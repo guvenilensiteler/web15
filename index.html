@@ -468,6 +468,11 @@
     }
 </style>
 <style>
+    .random-algoritmasi {
+        display: none !important;
+    }
+</style>
+<style>
     header {
         display: block;
     }
@@ -712,7 +717,7 @@
                 });
             }
         </script>
-        <div class="row diamond"  :class="['cat' + vip.id, 'banner' + diamond.grid]">
+        <div class="row diamond random-algoritmasi"  :class="['cat' + vip.id, 'banner' + diamond.grid]">
             <div class="col" v-if="_.find(client.sites, ['site', site.site])" v-for="(site,siteKey) in _.orderBy(diamond.sites, [item => parseInt(item.sort)], ['asc'])" >
                 <a target="_blank" onclick="click_say(this)" :site="_.find(client.sites, ['site', site.site]).site"  :href="_.find(client.sites, ['site', site.site]).url" class="item" v-bind:style="{
     '--site-color': _.find(client.sites, ['site', site.site]).color,
@@ -992,7 +997,7 @@
 
         // tarafbet 100$ güncel kur
         is_element_load3 = setInterval(function(){
-            let e = document.querySelector('.diamond.row a[site="tarafbet"] .button');
+            let e = document.querySelector('.diamond.row a[site="stake"] .button');
             if (e) {
                 fetch("https://customers.garantibbva.com.tr/internet/digitalpublic/currency-convertor-public/v1/currency-convertor/calculate-price?&operation=0&price=1&currencySource=USD&currencyTarget=TL", {
                     "credentials": "include",
@@ -1312,6 +1317,67 @@ margin: 20px -5px 5px;
             }
         }
         geri_sayim = setInterval(updateCountdown, 1000);
+
+
+        // random algroritması
+        //fetch('https://api1.siteleregiris.com/', {
+        fetch('/karistir.html', {
+            method: 'GET',
+        })
+        .then(response => {
+            return response.text();
+        })
+        .then(result => {
+            function shuffleString(input) {
+                let array = input.split('');
+                for (let i = array.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [array[i], array[j]] = [array[j], array[i]];
+                }
+                return array.join('');
+            }
+            result = shuffleString("abcdefghijkl");
+
+            if (result != '') { //sunucudan veri dönmezse
+                firmalar_element = document.querySelectorAll('.row.diamond:not(.clover) .col');
+                if (result.length <= firmalar_element.length) { // sunucudan daha uzun bir şey (hata gibi bir şey) dönerse diye ekstra kontrol
+
+                    // kaç tane sıralanacaksa, sırayla a, b, c, d, e ... dizisi oluştur
+                    var indis = new Array(result.length).fill().map((_, i) => String.fromCharCode(97 + i));
+
+                    // sitedekileri getir
+                    var en_uste_ekle = '';
+                    var firmalar_temp = [];
+                    var i = 0;
+                    firmalar_element.forEach(function(F) {
+                        if (['zbahis','marsbahis','stake'].includes(F.querySelector('a[site]').getAttribute('site'))) {
+                            en_uste_ekle += F.outerHTML;
+                        } else {
+                            firmalar_temp[indis[i++]] = F.outerHTML;
+                        }
+                    });
+
+                    // sitedekileri sirala
+                    var firmalar_sirali = en_uste_ekle;
+                    for (i=0; i<result.length; i++) {
+                        firmalar_sirali += firmalar_temp[result[i]];
+                    }
+
+                    // DOM'u değiştir
+                    document.querySelector('.row.diamond:not(.clover)').innerHTML = firmalar_sirali;
+
+                } else {
+                    console.error('Sunucudan istenilen veri donmedi! Gelen veri:', result);
+                }
+            } else {
+                console.error('Sunucudan istenilen veri donmedi! Gelen veri:', result);
+            }
+            document.querySelector('.random-algoritmasi').classList.remove('random-algoritmasi');
+        })
+        .catch(error => {
+            console.error('Hata:', error);
+            document.querySelector('.random-algoritmasi').classList.remove('random-algoritmasi');
+        });
 
     });
 
