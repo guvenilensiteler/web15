@@ -1336,7 +1336,7 @@ margin: 20px -5px 5px;
                 }
                 return array.join('');
             }
-            result = shuffleString("abcdefghijkl");
+            result = shuffleString("abcdefghijklm");
 
             if (result != '') { //sunucudan veri dönmezse
                 firmalar_element = document.querySelectorAll('.row.diamond:not(.clover) .col');
@@ -1350,7 +1350,7 @@ margin: 20px -5px 5px;
                     var firmalar_temp = [];
                     var i = 0;
                     firmalar_element.forEach(function(F) {
-                        if (['zbahis','marsbahis','stake'].includes(F.querySelector('a[site]').getAttribute('site'))) {
+                        if (['zbahis','marsbahis','stake','mersobahis'].includes(F.querySelector('a[site]').getAttribute('site'))) {
                             en_uste_ekle += F.outerHTML;
                         } else {
                             firmalar_temp[indis[i++]] = F.outerHTML;
