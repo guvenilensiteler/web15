@@ -190,6 +190,19 @@
         "elmas": "ana-sponsor.webp",
         "promo_code_yok": "",
         "slider_img": ""
+      },
+      {
+        "url": "https://t2m.io/mersoercu",
+        "desc": [
+          "100₺ Deneme Bonusu Sınırsız Çekim"
+        ],
+        "site": "mersobahis",
+        "sort": null,
+        "color": "#ffdf42",
+        "miktar": "₺100",
+        "promo_code": null,
+        "promo_code_yok": "Türkiyenin En Güvenilir Sitesi",
+        "slider_img": ""
       }
     ],
     "social": {
@@ -281,10 +294,14 @@
         "sites": [
           {
             "site": "zbahis",
-            "sort": "1"
+            "sort": "0"
           },
           {
             "site": "marsbahis",
+            "sort": "1"
+          },
+          {
+            "site": "mersobahis",
             "sort": "2"
           },
           {
