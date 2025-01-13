@@ -204,6 +204,78 @@
         "promo_code": null,
         "promo_code_yok": "Türkiyenin En Güvenilir Sitesi",
         "slider_img": ""
+      },
+      {
+        "url": "https://cutt.ly/4eDbl0yf",
+        "desc": [
+          ""
+        ],
+        "site": "betewin",
+        "sort": null,
+        "color": "#ff8d14",
+        "miktar": "₺999",
+        "promo_code_yok": "999 TL VEYA 99 SWEET BONANZA FREESPIN HEDİYE",
+        "slider_img": ""
+      },
+      {
+        "url": "https://cutt.ly/TeFeB63s",
+        "desc": [
+          ""
+        ],
+        "site": "bankobet",
+        "sort": null,
+        "color": "#ff1376",
+        "miktar": "₺1.111",
+        "promo_code_yok": "1.111 TL NAKİT VE 111 FREE SPIN",
+        "slider_img": ""
+      },
+      {
+        "url": "https://cutt.ly/teFph2TW",
+        "desc": [
+          ""
+        ],
+        "site": "tarafbet",
+        "sort": null,
+        "color": "#178b42",
+        "miktar": "₺1.500",
+        "promo_code_yok": "1500 TL Deneme Bonusunu Al, Kazan ÇEK!",
+        "slider_img": ""
+      },
+      {
+        "url": "https://cutt.ly/JeXi8YwN",
+        "desc": [
+          ""
+        ],
+        "site": "betkom",
+        "sort": null,
+        "color": "#1fe0ff",
+        "miktar": "₺5.000",
+        "promo_code_yok": "50+5000₺ NAKİT VEYA 50+5000 FREESPİN",
+        "slider_img": ""
+      },
+      {
+        "url": "https://cutt.ly/WeFeN8AX",
+        "desc": [
+          ""
+        ],
+        "site": "bahiscom",
+        "sort": null,
+        "color": "#00c683",
+        "miktar": "₺1.500",
+        "promo_code_yok": "1500 TL Deneme Bonusu!",
+        "slider_img": ""
+      },
+      {
+        "url": "https://cutt.ly/leFeCKmO",
+        "desc": [
+          ""
+        ],
+        "site": "mariobet",
+        "sort": null,
+        "color": "#f16227",
+        "miktar": "₺1.500",
+        "promo_code_yok": "1500 TL Deneme bonusun Seni bekliyor!",
+        "slider_img": ""
       }
     ],
     "social": {
@@ -295,15 +367,39 @@
         "sites": [
           {
             "site": "zbahis",
-            "sort": "0"
-          },
-          {
-            "site": "marsbahis",
             "sort": "1"
           },
           {
-            "site": "mersobahis",
+            "site": "marsbahis",
             "sort": "2"
+          },
+          {
+            "site": "mersobahis",
+            "sort": "3"
+          },
+          {
+            "site": "bankobet",
+            "sort": "4"
+          },
+          {
+            "site": "betewin",
+            "sort": "5"
+          },
+          {
+            "site": "bahiscom",
+            "sort": "6"
+          },
+          {
+            "site": "mariobet",
+            "sort": "7"
+          },
+          {
+            "site": "betkom",
+            "sort": "8"
+          },
+          {
+            "site": "tarafbet",
+            "sort": "9"
           }
         ]
       },
