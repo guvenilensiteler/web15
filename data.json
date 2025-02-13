@@ -167,15 +167,16 @@
         "slider_img": ""
       },
       {
-        "url": "https://bit.ly/stake14dolar",
+        "url": "https://stake.com/?c=STAKERCU&offer=STAKERCU",
         "desc": [
-          "DÜNYANIN EN GÜVENİLİR SİTESİ"
+          "VİP SPONSOR"
         ],
         "site": "stake",
         "sort": null,
         "color": "#1475e1",
-        "miktar": "$14",
-        "promo_code": null,
+        "miktar": "KAYIT OL",
+        "elmas": "sinirsiz-cekim.webp",
+        "promo_code_yok": "2 DAKİKA İÇİNDE SINIRSIZ KRİPTO ÇEKİM !",
         "slider_img": ""
       },
       {
@@ -386,36 +387,40 @@
             "sort": "1"
           },
           {
-            "site": "mersobahis",
+            "site": "stake",
             "sort": "2"
           },
           {
-            "site": "betist",
+            "site": "mersobahis",
             "sort": "3"
           },
           {
-            "site": "bankobet",
+            "site": "betist",
             "sort": "4"
           },
           {
-            "site": "betewin",
+            "site": "bankobet",
             "sort": "5"
           },
           {
-            "site": "bahiscom",
+            "site": "betewin",
             "sort": "6"
           },
           {
-            "site": "mariobet",
+            "site": "bahiscom",
             "sort": "7"
           },
           {
-            "site": "betkom",
+            "site": "mariobet",
             "sort": "8"
           },
           {
-            "site": "tarafbet",
+            "site": "betkom",
             "sort": "9"
+          },
+          {
+            "site": "tarafbet",
+            "sort": "10"
           }
         ]
       },
