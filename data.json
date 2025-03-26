@@ -289,6 +289,18 @@
         "miktar": "₺600",
         "promo_code_yok": "Yeni üyelere 600₺ deneme bonusu",
         "slider_img": ""
+      },
+      {
+        "url": "https://casinodioraff.com/links/?btag=2364804",
+        "desc": [
+          ""
+        ],
+        "site": "casinodior",
+        "sort": null,
+        "color": "#ffe600",
+        "miktar": "600 FS",
+        "promo_code_yok": "600FS DENEME BONUSU",
+        "slider_img": ""
       }
     ],
     "social": {
@@ -379,48 +391,52 @@
         "sort": "3",
         "sites": [
           {
-            "site": "zbahis",
-            "sort": "0"
-          },
-          {
-            "site": "marsbahis",
+            "site": "casinodior",
             "sort": "1"
           },
           {
-            "site": "stake",
+            "site": "zbahis",
             "sort": "2"
           },
           {
-            "site": "mersobahis",
+            "site": "marsbahis",
             "sort": "3"
           },
           {
-            "site": "betist",
+            "site": "stake",
             "sort": "4"
           },
           {
-            "site": "bankobet",
+            "site": "mersobahis",
             "sort": "5"
           },
           {
-            "site": "betewin",
+            "site": "betist",
             "sort": "6"
           },
           {
-            "site": "bahiscom",
+            "site": "bankobet",
             "sort": "7"
           },
           {
-            "site": "mariobet",
+            "site": "betewin",
             "sort": "8"
           },
           {
-            "site": "betkom",
+            "site": "bahiscom",
             "sort": "9"
           },
           {
-            "site": "tarafbet",
+            "site": "mariobet",
             "sort": "10"
+          },
+          {
+            "site": "betkom",
+            "sort": "11"
+          },
+          {
+            "site": "tarafbet",
+            "sort": "12"
           }
         ]
       },
