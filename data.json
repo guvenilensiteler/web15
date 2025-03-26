@@ -391,10 +391,6 @@
         "sort": "3",
         "sites": [
           {
-            "site": "casinodior",
-            "sort": "1"
-          },
-          {
             "site": "zbahis",
             "sort": "2"
           },
@@ -437,6 +433,10 @@
           {
             "site": "tarafbet",
             "sort": "12"
+          },
+          {
+            "site": "casinodior",
+            "sort": "13"
           }
         ]
       },
