@@ -66,7 +66,7 @@
         "slider_img": ""
       },
       {
-        "url": "https://cutt.ly/uePUIygW",
+        "url": "https://cutt.ly/Zrsa9pUD",
         "desc": [
           "5 DAKİKADA ÇEKİM LİMİTSİZ KAZANÇ"
         ],
@@ -74,7 +74,7 @@
         "sort": null,
         "color": "#adf01f",
         "miktar": "₺555",
-        "promo_code": null,
+        "elmas": "ana-sponsor.webp",
         "promo_code_yok": "ÜYE OL BONUSUNU AL",
         "slider_img": ""
       },
@@ -391,7 +391,7 @@
         "sort": "3",
         "sites": [
           {
-            "site": "zbahis",
+            "site": "stake",
             "sort": "2"
           },
           {
@@ -399,11 +399,11 @@
             "sort": "3"
           },
           {
-            "site": "stake",
+            "site": "mersobahis",
             "sort": "4"
           },
           {
-            "site": "mersobahis",
+            "site": "fixbet",
             "sort": "5"
           },
           {
