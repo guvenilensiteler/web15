@@ -301,6 +301,30 @@
         "miktar": "600 FS",
         "promo_code_yok": "600FS DENEME BONUSU",
         "slider_img": ""
+      },
+      {
+        "url": "https://go.aff.elexbetpro.com/8zxe27ep",
+        "desc": [
+          "Hoşgeldin bonusu’nu al!"
+        ],
+        "site": "elexbet",
+        "sort": null,
+        "color": "#fff001",
+        "miktar": "600 FS",
+        "promo_code_yok": "Casino ve spor alanında ercü üyelerine özel",
+        "slider_img": ""
+      },
+      {
+        "url": "https://tulipbetortaklik.com/9724g52m",
+        "desc": [
+          "Hoşgeldin bonusu’nu al!"
+        ],
+        "site": "tulipbet",
+        "sort": null,
+        "color": "#dab55c",
+        "miktar": "600 FS",
+        "promo_code_yok": "Casino ve spor alanında ercü üyelerine özel",
+        "slider_img": ""
       }
     ],
     "social": {
@@ -433,6 +457,18 @@
           {
             "site": "tarafbet",
             "sort": "12"
+          },
+          {
+            "site": "casinodior",
+            "sort": "13"
+          },
+          {
+            "site": "elexbet",
+            "sort": "14"
+          },
+          {
+            "site": "tulipbet",
+            "sort": "15"
           }
         ]
       },
