@@ -54,15 +54,15 @@
         "slider_img": ""
       },
       {
-        "url": "https://cutt.ly/PeSBmCYB",
+        "url": "https://cutt.ly/jrfsp5kQ",
         "desc": [
-          "500 + 250 TL 2 Kez Deneme Bonusu"
+          ""
         ],
         "site": "sahabet",
         "sort": null,
         "color": "#008000",
-        "miktar": "₺500",
-        "promo_code_yok": "YATIRIM ŞARTSIZ 500 TL ÇEKİM YAP",
+        "miktar": "₺1.000",
+        "promo_code_yok": "KAYIT OL 1000₺ DENEME BONUSUNU AL !",
         "slider_img": ""
       },
       {
@@ -415,14 +415,18 @@
         "sites": [
           {
             "site": "stake",
-            "sort": "2"
+            "sort": "1"
           },
           {
             "site": "marsbahis",
-            "sort": "3"
+            "sort": "2"
           },
           {
             "site": "mersobahis",
+            "sort": "3"
+          },
+          {
+            "site": "sahabet",
             "sort": "4"
           },
           {
@@ -468,7 +472,8 @@
           {
             "site": "tulipbet",
             "sort": "15"
-          }
+          },
+
         ]
       },
       {
