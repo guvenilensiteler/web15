@@ -418,6 +418,10 @@
         "sort": "3",
         "sites": [
           {
+            "site": "tipobet",
+            "sort": "0"
+          },
+          {
             "site": "stake",
             "sort": "1"
           },
@@ -429,10 +433,7 @@
             "site": "sahabet",
             "sort": "3"
           },
-          {
-            "site": "tipobet",
-            "sort": "4"
-          },
+
           {
             "site": "onwin",
             "sort": "5"
